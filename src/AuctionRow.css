@@ -1,0 +1,12 @@
+.auction-row{
+    height: 500px;
+    background-color: #08101F;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    overflow-x: scroll;
+
+}
+
+.auction-row-cards{
+    display: flex;
+}

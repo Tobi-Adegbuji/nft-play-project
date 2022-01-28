@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import AuctionCard from './AuctionCard'; 
+import AuctionRow from './AuctionRow';
+
+
+// https://dribbble.com/shots/16892110-XCRYP-NFT-Marketplace-Dashboard
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AuctionRow assetOwnerAddress={"0x78b5887b94b7ac26b536dac7e829ecde355b48a2"}/>
     </div>
   );
 }
